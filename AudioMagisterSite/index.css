@@ -1,0 +1,240 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #010101;
+  overflow: hidden;
+}
+.flex-row-b {
+  position: relative;
+  width: 1688px;
+  height: 59px;
+  margin: 57px 0 0 118.667px;
+  z-index: 2;
+}
+.audio-magister {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 67.8%;
+  top: 0;
+  left: 0;
+  color: #2b2b2b;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.audio-magister-key {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 346.667px;
+  height: 100%;
+  top: 0;
+  left: 79.46%;
+  color: #2b2b2b;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  z-index: 2;
+}
+.flex-row-ba {
+  position: relative;
+  width: 1690px;
+  height: 765.9px;
+  margin: 74px 0 0 114.667px;
+  z-index: 8;
+}
+.team-developers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 8.36%;
+  top: 0;
+  left: 38.78%;
+  color: #cdcdcd;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.group {
+  position: absolute;
+  width: 721px;
+  height: 755.9px;
+  top: 10px;
+  left: 873.333px;
+  background: url(./assets/images/90c4f82f-cd66-4451-a470-446f6e022c7a.png)
+    no-repeat center;
+  background-size: cover;
+}
+.rgb-yuv-conversion {
+  position: absolute;
+  width: 55.23%;
+  height: 43.35%;
+  top: 5.35%;
+  left: 0;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+  z-index: 4;
+}
+.figma-selection {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.rgb-object {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.figma-selection-1 {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.rgb-object-2 {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.figma-selection-3 {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.rgb-object-4 {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.figma-selection-5 {
+  position: relative;
+  color: #888888;
+  font-family: Roboto Mono, var(--default-font-family);
+  font-size: 5px;
+  font-weight: 400;
+  line-height: 6.25px;
+  text-align: left;
+}
+.heart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 15.15%;
+  top: 12.27%;
+  left: 39.43%;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 116px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.primary-general {
+  position: absolute;
+  width: 21.62%;
+  height: 6.27%;
+  top: 88.26%;
+  left: 39.43%;
+  background: #ffffff;
+  z-index: 8;
+  border-radius: 30px;
+}
+.rectangle {
+  position: relative;
+  width: 337px;
+  height: 48px;
+  margin: 0 0 0 14px;
+  background: #ffffff;
+  z-index: 9;
+  border-radius: 48px;
+  box-shadow: 0 17px 33px 0 rgba(255, 255, 255, 0.2);
+}
+.primary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 99px;
+  height: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 49.5px);
+  color: #010101;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 3.78px;
+  z-index: 10;
+}

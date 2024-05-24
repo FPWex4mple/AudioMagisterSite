@@ -5,6 +5,12 @@
     "Source Han Sans CN", sans-serif;
 }
 
+body, html{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 .main-container {
   overflow: hidden;
 }
@@ -23,8 +29,8 @@ button {
 
 .main-container {
   position: relative;
-  width: 1920px;
-  height: 1024px;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   background: #010101;
   overflow: hidden;
@@ -65,7 +71,7 @@ button {
   justify-content: flex-start;
   position: absolute;
   height: 83.33%;
-  top: 16.67%;
+  top: 2%;
   left: 82.02%;
   color: #2b2b2b;
   font-family: Ubuntu, var(--default-font-family);
@@ -76,6 +82,12 @@ button {
   white-space: nowrap;
   z-index: 32;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .flex-row {
   position: relative;
@@ -83,6 +95,12 @@ button {
   height: 388px;
   margin: 31px 0 0 36px;
   z-index: 34;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .panchenko-anton {
   display: flex;
@@ -99,6 +117,12 @@ button {
   line-height: 40px;
   text-align: left;
   white-space: nowrap;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .khalipov-ivan {
   display: flex;
@@ -116,6 +140,12 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 3;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .shevchenko-valeriy {
   display: flex;
@@ -133,6 +163,12 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 4;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .audio-magister-1 {
   display: flex;
@@ -150,6 +186,12 @@ button {
   line-height: 6.25px;
   text-align: left;
   z-index: 34;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .div {
   position: absolute;
@@ -163,6 +205,12 @@ button {
   line-height: 6.25px;
   text-align: left;
   z-index: 33;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .let-node-selection {
   position: relative;
@@ -172,6 +220,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgbyuv-function {
   position: relative;
@@ -181,6 +235,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .let-node-selection-2 {
   position: relative;
@@ -190,6 +250,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgbyuv-function-3 {
   position: relative;
@@ -199,6 +265,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .let-node-selection-4 {
   position: relative;
@@ -208,6 +280,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgbyuv-function-5 {
   position: relative;
@@ -217,6 +295,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .let-node-selection-6 {
   position: relative;
@@ -226,6 +310,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .image {
   position: absolute;
@@ -238,6 +328,12 @@ button {
   background-size: cover;
   transform: translate(-217.92%, 0);
   z-index: 25;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rectangle {
   position: relative;
@@ -246,6 +342,12 @@ button {
   margin: 163px 0 0 0;
   background: #010101;
   z-index: 26;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .image-7 {
   position: absolute;
@@ -340,6 +442,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 8;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .vk {
   display: flex;
@@ -358,6 +466,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 10;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .github-c {
   display: flex;
@@ -376,6 +490,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 21;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .vk-d {
   display: flex;
@@ -394,6 +514,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 22;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .github-e {
   display: flex;
@@ -412,6 +538,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 28;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .vk-f {
   display: flex;
@@ -440,6 +572,12 @@ button {
   height: 40px;
   margin: 72px 0 0 487px;
   z-index: 2;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .satvaldyev-emir {
   flex-shrink: 0;
@@ -453,6 +591,12 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 1;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .tsybenkov-konstantin {
   flex-shrink: 0;
@@ -466,7 +610,21 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 2;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+
 .flex-row-de {
   display: flex;
   align-items: center;
@@ -476,6 +634,12 @@ button {
   height: 148px;
   margin: 30px 0 0 463px;
   z-index: 15;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .image-10 {
   flex-shrink: 0;
@@ -486,6 +650,12 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 14;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .image-11 {
   flex-shrink: 0;
@@ -523,6 +693,12 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 12;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .vk-13 {
   display: flex;
@@ -540,4 +716,10 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 13;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }

@@ -5,14 +5,32 @@
     "Source Han Sans CN", sans-serif;
 }
 
+body, html{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 .main-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: #010101;
   overflow: hidden;
 }
 
-.main-container,
-.main-container * {
-  box-sizing: border-box;
+button {
+  background: none;
+  border: none;
+  padding: 0;
 }
+
+
+/*.main-container,*/
+/*.main-container * {*/
+/*  box-sizing: content-box;*/
+/*}*/
 
 input,
 select,
@@ -21,20 +39,19 @@ button {
   outline: 0;
 }
 
-.main-container {
-  position: relative;
-  width: 1920px;
-  height: 1024px;
-  margin: 0 auto;
-  background: #010101;
-  overflow: hidden;
-}
 .flex-row-b {
   position: relative;
   width: 1688px;
   height: 59px;
   margin: 57px 0 0 118.667px;
   z-index: 2;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
 }
 .audio-magister {
   display: flex;
@@ -53,6 +70,12 @@ button {
   white-space: nowrap;
   z-index: 1;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .audio-magister-key {
   display: flex;
@@ -70,6 +93,12 @@ button {
   line-height: 20px;
   text-align: left;
   z-index: 2;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .flex-row-ba {
   position: relative;
@@ -77,6 +106,12 @@ button {
   height: 765.9px;
   margin: 74px 0 0 114.667px;
   z-index: 8;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .team-developers {
   display: flex;
@@ -94,6 +129,12 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 3;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .group {
   position: absolute;
@@ -104,6 +145,12 @@ button {
   background: url(./assets/images/90c4f82f-cd66-4451-a470-446f6e022c7a.png)
     no-repeat center;
   background-size: cover;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgb-yuv-conversion {
   position: absolute;
@@ -117,6 +164,12 @@ button {
   line-height: 6.25px;
   text-align: left;
   z-index: 4;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .figma-selection {
   position: relative;
@@ -126,6 +179,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgb-object {
   position: relative;
@@ -135,6 +194,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .figma-selection-1 {
   position: relative;
@@ -144,6 +209,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgb-object-2 {
   position: relative;
@@ -153,6 +224,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .figma-selection-3 {
   position: relative;
@@ -162,6 +239,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rgb-object-4 {
   position: relative;
@@ -171,6 +254,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .figma-selection-5 {
   position: relative;
@@ -180,6 +269,12 @@ button {
   font-weight: 400;
   line-height: 6.25px;
   text-align: left;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .heart {
   display: flex;
@@ -197,6 +292,12 @@ button {
   text-align: left;
   white-space: nowrap;
   z-index: 6;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .primary-general {
   position: absolute;
@@ -207,6 +308,12 @@ button {
   background: #ffffff;
   z-index: 8;
   border-radius: 30px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 .rectangle {
   position: relative;
@@ -237,4 +344,10 @@ button {
   white-space: nowrap;
   letter-spacing: 3.78px;
   z-index: 10;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }

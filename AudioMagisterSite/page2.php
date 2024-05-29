@@ -2,20 +2,42 @@
     if (isset($_POST['button'])){
         header('Location: page1.php');
     }
+
+    if (isset($_POST['VKAnton']) || isset($_POST['GitHubAnton'])) {
+        $location = isset($_POST['VKAnton']) ? 'https://vk.com/elorfind' : 'https://github.com/elorfind';
+        header('Location: ' . $location);
+    }
+
+    if (isset($_POST['VKVanya']) || isset($_POST['GitHubVanya'])) {
+        $location = isset($_POST['VKVanya']) ? 'https://vk.com/salm0n_salad' : 'https://github.com/SALM0NSalaD';
+        header('Location: ' . $location);
+    }
+
+    if (isset($_POST['VKValera']) || isset($_POST['GitHubValera'])){
+        $location = isset($_POST['VKValera']) ? 'https://vk.com/igonnacodetillidie' : 'https://github.com/g0c0de0rd1e';
+        header('Location: ' . $location);
+    }
+
+    if (isset($_POST['VKEmir']) || isset($_POST['GitHubEmir'])){
+        $location = isset($_POST['VKEmir']) ? 'https://vk.com/opopm' : 'https://github.com/emiven377';
+        header('Location: ' . $location);
+    }
+
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AudioMagister</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" />
-    <link rel="stylesheet" href="page2.css" />
+    <link rel="stylesheet" href="assets/css/page2.css" />
   </head>
-  <body>
+  <div>
     <div class="main-container">
+
       <form method="post">
           <div class="flex-row-a">
           <button type="submit" name="button">
@@ -25,12 +47,14 @@
           </div>
       </form>
         <span class="audio-magister">AudioMagister</span>
+
       <div class="flex-row">
-        <span class="panchenko-anton">Панченко Антон</span
-><span class="khalipov-ivan">Халипов Иван</span
-><span class="shevchenko-valeriy">Шевченко Валерий</span
-><span class="audio-magister-1"
->:root {<br />
+        <span class="panchenko-anton" name="Anton">Панченко Антон</span
+        ><span class="khalipov-ivan" name="Vanya">Халипов Иван</span
+        ><span class="shevchenko-valeriy" name="Valera">Шевченко Валерий</span
+        >
+        <span class="audio-magister-1"
+        >:root {<br />
           --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto,<br />
           Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",<br />
@@ -224,27 +248,37 @@
             masterSnapper(color)<br />)</span
           >
         </div>
-        <div class="image"><div class="rectangle"></div></div>
-        <div class="image-7"><div class="rectangle-8"></div></div>
-        <div class="empty"><div class="rectangle-9"></div></div>
+
+<form method="post">
+    <button type="submit" class="github" name="GitHubAnton">Github</button><button type="submit" class="vk" name="VKAnton">VK</button>
+    <button type="submit" class="github-c" name="GitHubVanya">Github</button><button type="submit" class="vk-d" name="VKVanya">VK</button>
+    <button type="submit" class="github-e" name="GitHubValera">Github</button><button type="submit" class="vk-f" name="VKValera">VK</button>
+   <div class="image"><div class="rectangle"></div></div>
+    <div class="image-7"><div class="rectangle-8"></div></div>
+    <div class="empty"><div class="rectangle-9"></div></div>
         <div class="image-a"></div>
         <div class="empty-b"></div>
         <div class="qr"></div>
-        <span class="github">Github</span><span class="vk">VK</span
-          ><span class="github-c">Github</span><span class="vk-d">VK</span
-          ><span class="github-e">Github</span><span class="vk-f">VK</span>
+
+
+</form>
       </div>
+
+        <form method="post">
       <div class="flex-row-fa">
-        <span class="satvaldyev-emir">Сатвалдыев Эмир</span
-          ><span class="tsybenkov-konstantin">Цыбенков Константин</span>
+        <span class="satvaldyev-emir" name="Emir">Сатвалдыев Эмир</span
+          ><span class="tsybenkov-konstantin" name="Kostya">Цыбенков Константин</span>
+        </form>
       </div>
       <div class="flex-row-de">
         <div class="image-10"></div>
         <div class="image-11"></div>
       </div>
+    <form method="post">
       <div class="flex-row-f">
-        <span class="github-12">Github</span><span class="vk-13">VK</span>
+        <button type="submit" class="github-12" name="GitHubEmir">Github</button><button type="submit" class="vk-13" name="VKEmir">VK</button>
       </div>
-    </div>
+    </form>
+  </div>
   </body>
 </html>

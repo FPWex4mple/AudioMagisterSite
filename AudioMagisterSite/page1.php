@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
 </head>
 <body>
+<div class="liquid" id="liquid"></div>
+
 <div class="main-container">
     <div class="flex-row-b">
         <span class="audio-magister">AudioMagister</span
@@ -122,8 +124,9 @@
         <span class="heart">{❤}</span>
         <div class="primary-general">
             <form method="post">
-                <button type="submit" name="button"> <div class="rectangle"><span class="primary">ССЫЛКИ</span></div></button>
-
+                <div class="wrapper">
+                    <button type="submit" class="button" name="button"><span>Hover Me!</span></button>
+                </div>
             </form>
         </div>
     </div>
